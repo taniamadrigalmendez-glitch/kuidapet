@@ -104,9 +104,25 @@ export default function Home() {
             </h3>
 
             <p>
-              Alimentación, agua fresca, limpieza básica,
-              compañía, fotos, vídeos e informe personalizado.
-            </p>
+  Alimentación, agua fresca, limpieza básica,
+  compañía, fotos, vídeos e informe personalizado.
+</p>
+
+<div className="mt-4 text-sm text-gray-600">
+  <p className="mb-3 font-medium">
+    También cuidamos:
+  </p>
+
+  <ul className="space-y-1">
+    <li>🐰 Conejos</li>
+    <li>🐹 Cobayas y hámsters</li>
+    <li>🐭 Ratones y jerbos</li>
+    <li>🦦 Hurones</li>
+    <li>🐦 Aves domésticas</li>
+    <li>🐢 Tortugas</li>
+    <li>🐠 Peces ornamentales</li>
+  </ul>
+</div>
           </div>
 
           <div className="border rounded-xl p-6">
@@ -133,10 +149,10 @@ export default function Home() {
           <div className="border rounded-xl p-6">
             <h3 className="text-xl font-semibold mb-3">
               🚶 Paseos para perros
-            </h3>
+          </h3>
 
             <p>
-              Disponible en Alginet y Benifaió.
+                Servicio disponible exclusivamente en Alginet y Benifaió.
             </p>
           </div>
 
@@ -167,6 +183,7 @@ export default function Home() {
     <li>✅ Perro adicional compatible: +8 € por visita</li>
     <li>✅ Medicación compleja: +3 € por visita</li>
     <li>✅ Riego de plantas incluido</li>
+    <li>✅ Suplemento por desplazamiento fuera de Alginet y Benifaió</li>
     <li>✅ En temporada alta las visitas pueden ajustarse a una duración aproximada de entre 30 y 45 minutos</li>
 
   </ul>
@@ -239,8 +256,11 @@ export default function Home() {
               </h3>
 
               <p>
-                Alginet y Benifaió incluidos.
-                A partir de 5 km se aplica suplemento según distancia.
+                Los servicios realizados en Alginet y Benifaió tienen el desplazamiento incluido.
+              </p>
+
+              <p className="mt-3">
+                Para servicios fuera de Alginet y Benifaió se aplicará un suplemento por desplazamiento según la distancia.
               </p>
             </div>
 
