@@ -230,8 +230,8 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-4">
                 🚶 Paseos
               </h3>
-<p className="font-bold text-lg text-red-600 mb-3">
-  * Solo disponible en Alginet y Benifaió
+<p className="text-red-600 font-bold mb-3">
+  * Servicio disponible exclusivamente en Alginet y Benifaió
 </p>
 
               <ul className="space-y-2">
