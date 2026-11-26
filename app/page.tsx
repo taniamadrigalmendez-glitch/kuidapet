@@ -190,68 +190,92 @@ export default function Home() {
 </div>
           <div className="space-y-8">
 
-            <div className="bg-white border rounded-xl p-6">
-              <h3 className="text-2xl font-semibold mb-4">
-                🐱 Gatos y pequeñas mascotas
-              </h3>
+            <details className="bg-white border rounded-xl p-6">
+  <summary className="text-2xl font-semibold cursor-pointer list-none">
+    🐱🐰🐹 Gatos y pequeñas mascotas
+  </summary>
 
-              <ul className="space-y-2">
-                <li>Visita estándar (45-60 min): <strong>24 €</strong></li>
-                <li>Visita ampliada (75-90 min): <strong>35 €</strong></li>
-                <li>Plan medicación (2 visitas de 30 min): <strong>38 €</strong></li>
-                <li>Compañía prolongada (4 horas): <strong>90 €</strong></li>
-              </ul>
+  <div className="mt-4">
+    <ul className="space-y-2">
+      <li>Visita estándar (45-60 min): <strong>24 €</strong></li>
+      <li>Visita ampliada (75-90 min): <strong>35 €</strong></li>
+      <li>Plan medicación (2 visitas de 30 min): <strong>38 €</strong></li>
+      <li>Compañía prolongada (4 horas): <strong>90 €</strong></li>
+    </ul>
 
-              <div className="mt-4 text-sm text-gray-600">
-                <p><strong>Hasta 3 mascotas incluidas.</strong></p>
-                <p>Mascota adicional: <strong>+3 € por visita</strong></p>
-              </div>
-            </div>
+    <div className="mt-4 text-sm text-gray-600">
+      <p><strong>Hasta 3 mascotas incluidas.</strong></p>
+      <p>Mascota adicional: <strong>+3 € por visita</strong></p>
 
-            <div className="bg-white border rounded-xl p-6">
-              <h3 className="text-2xl font-semibold mb-4">
-                🐶 Perros
-              </h3>
+      <div className="mt-4 flex flex-wrap gap-4">
+        <span>🐰 Conejos</span>
+        <span>🐹 Cobayas y hámsters</span>
+        <span>🐭 Ratones y jerbos</span>
+        <span>🦦 Hurones</span>
+        <span>🐦 Aves domésticas</span>
+        <span>🐢 Tortugas</span>
+        <span>🐠 Peces ornamentales</span>
+      </div>
+    </div>
+  </div>
+</details>
 
-              <ul className="space-y-2">
-                <li>1 perro (45-60 min): <strong>25 €</strong></li>
-                <li>2 perros compatibles (45-60 min): <strong>33 €</strong></li>
-                <li>Visita ampliada (75-90 min): <strong>36 €</strong></li>
-                <li>Plan medicación (2 visitas de 30 min): <strong>38 €</strong></li>
-                <li>Compañía prolongada (4 horas): <strong>90 €</strong></li>
-              </ul>
+            <details className="bg-white border rounded-xl p-6">
+  <summary className="text-2xl font-semibold cursor-pointer list-none">
+    🐶 Perros
+  </summary>
 
-              <div className="mt-4 text-sm text-gray-600">
-                <p>Perro adicional compatible: <strong>+8 € por visita</strong></p>
-              </div>
-            </div>
+  <div className="mt-4">
+    <ul className="space-y-2">
+      <li>1 perro (45-60 min): <strong>25 €</strong></li>
+      <li>2 perros compatibles (45-60 min): <strong>33 €</strong></li>
+      <li>Visita ampliada (75-90 min): <strong>36 €</strong></li>
+      <li>Plan medicación (2 visitas de 30 min): <strong>38 €</strong></li>
+      <li>Compañía prolongada (4 horas): <strong>90 €</strong></li>
+    </ul>
 
-            <div className="bg-white border rounded-xl p-6">
-              <h3 className="text-2xl font-semibold mb-4">
-                🚶 Paseos
-              </h3>
-<p className="text-red-600 font-bold mb-3">
-  * Servicio disponible exclusivamente en Alginet y Benifaió
-</p>
+    <div className="mt-4 text-sm text-gray-600">
+      <p>
+        Perro adicional compatible:
+        <strong> +8 € por visita</strong>
+      </p>
+    </div>
+  </div>
+</details>
 
-              <ul className="space-y-2">
-                <li>30 minutos (1 perro): <strong>13 €</strong></li>
-                <li>30 minutos (2 perros compatibles): <strong>22 €</strong></li>
-                <li>60 minutos (1 perro): <strong>22 €</strong></li>
-                <li>Perro adicional compatible: <strong>+15 €</strong></li>
-              </ul>
-            </div>
+           <details className="bg-white border rounded-xl p-6">
+  <summary className="text-2xl font-semibold cursor-pointer list-none">
+    🚶 Paseos
+  </summary>
 
-            <div className="bg-white border rounded-xl p-6">
-              <h3 className="text-2xl font-semibold mb-4">
-                🔑 Pre-visita
-              </h3>
+  <div className="mt-4">
 
-              <p>
-                Pre-visita presencial y entrega de llaves:
-                <strong> 15 €</strong>
-              </p>
-            </div>
+    <p className="text-red-600 font-bold mb-3">
+      * Servicio disponible exclusivamente en Alginet y Benifaió
+    </p>
+
+    <ul className="space-y-2">
+      <li>30 minutos (1 perro): <strong>13 €</strong></li>
+      <li>30 minutos (2 perros compatibles): <strong>22 €</strong></li>
+      <li>60 minutos (1 perro): <strong>22 €</strong></li>
+      <li>Perro adicional compatible: <strong>+15 €</strong></li>
+    </ul>
+
+  </div>
+</details>
+
+            <details className="bg-white border rounded-xl p-6">
+  <summary className="text-2xl font-semibold cursor-pointer list-none">
+    🔑 Pre-visita
+  </summary>
+
+  <div className="mt-4">
+    <p>
+      Pre-visita presencial y entrega de llaves:
+      <strong> 15 €</strong>
+    </p>
+  </div>
+</details>
 
             <div className="bg-white border rounded-xl p-6">
               <h3 className="text-2xl font-semibold mb-4">
