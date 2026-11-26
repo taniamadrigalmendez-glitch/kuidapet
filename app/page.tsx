@@ -230,6 +230,9 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-4">
                 🚶 Paseos
               </h3>
+<p className="font-bold text-lg text-red-600 mb-3">
+  * Solo disponible en Alginet y Benifaió
+</p>
 
               <ul className="space-y-2">
                 <li>30 minutos (1 perro): <strong>13 €</strong></li>
