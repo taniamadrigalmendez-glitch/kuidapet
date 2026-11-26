@@ -1,31 +1,35 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-white text-gray-900">
 
       {/* HERO */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      <section className="max-w-6xl mx-auto px-6 py-8">
+<div className="flex justify-center mb-0">
+  <img
+    src="/logo-kuidapet.png"
+    alt="KuidaPet"
+    className="w-72 md:w-96 h-auto"
+  />
+</div>
 
-        <div className="text-green-600 font-bold text-5xl md:text-7xl tracking-wide mb-6">
-          KUIDAPET
-        </div>
-
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
           Cuidado de mascotas a domicilio en Valencia y la Ribera Alta
         </h1>
 
-        <p className="text-xl text-gray-600 max-w-3xl mb-10">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 text-center">
           Visitas personalizadas para gatos, perros y pequeñas mascotas.
           Administración de medicación, fotos y vídeos durante las visitas,
           informes personalizados y riego de plantas incluido sin coste adicional.
         </p>
 
-        <div className="flex flex-wrap gap-4 mb-10 text-sm md:text-base">
+        <div className="flex flex-wrap justify-center gap-4 mb-10 text-sm md:text-base">
           <div>✅ Español e inglés</div>
           <div>✅ Medicación</div>
           <div>✅ Fotos y vídeos</div>
           <div>✅ Riego de plantas incluido</div>
         </div>
-
+<div className="flex justify-center">
         <a
           href="https://wa.me/34654533971?text=Hola,%20he%20encontrado%20KuidaPet%20y%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20cuidado%20de%20mi%20mascota."
           target="_blank"
@@ -34,6 +38,7 @@ export default function Home() {
         >
           Solicitar presupuesto por WhatsApp
         </a>
+       </div>
 
       </section>
 
@@ -619,7 +624,7 @@ export default function Home() {
       © 2026 KuidaPet
     </p>
 
-    <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+    <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
 
       <a href="/aviso-legal" className="hover:text-green-600">
         Aviso Legal
