@@ -216,6 +216,14 @@ export default function Home() {
         <span>🐢 Tortugas</span>
         <span>🐠 Peces ornamentales</span>
       </div>
+      <div className="mt-6">
+  <a
+    href="/cuidador-gatos-valencia"
+    className="text-green-600 font-semibold hover:underline"
+  >
+    Más información sobre el cuidado de gatos →
+  </a>
+</div>
     </div>
   </div>
 </details>
