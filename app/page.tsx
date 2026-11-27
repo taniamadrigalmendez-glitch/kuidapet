@@ -14,14 +14,15 @@ export default function Home() {
 </div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
-          Cuidado de mascotas a domicilio en Valencia y la Ribera Alta
-        </h1>
+  Cuidado de mascotas a domicilio en Alginet, Benifaió, Valencia y la Ribera Alta
+</h1>
 
         <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 text-center">
-          Visitas personalizadas para gatos, perros y pequeñas mascotas.
-          Administración de medicación, fotos y vídeos durante las visitas,
-          informes personalizados y riego de plantas incluido sin coste adicional.
-        </p>
+  Servicio profesional de cuidado de gatos, perros y pequeñas mascotas a domicilio
+  en Alginet, Benifaió, Valencia y la Ribera Alta. Visitas personalizadas,
+  medicación, fotos, vídeos e informes durante cada servicio.
+</p>
+
 
         <div className="flex flex-wrap justify-center gap-4 mb-10 text-sm md:text-base">
           <div>✅ Español e inglés</div>
