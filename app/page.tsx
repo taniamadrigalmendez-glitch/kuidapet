@@ -243,13 +243,21 @@ export default function Home() {
       <li>Compañía prolongada (4 horas): <strong>90 €</strong></li>
     </ul>
 
-    <div className="mt-4 text-sm text-gray-600">
-      <p>
-        Perro adicional compatible:
-        <strong> +8 € por visita</strong>
-      </p>
-    </div>
-  </div>
+    <p>
+  Perro adicional compatible:
+  <strong> +8 € por visita</strong>
+</p>
+
+<div className="mt-6">
+  <a
+    href="/cuidador-mascotas-alginet"
+    className="text-green-600 font-semibold hover:underline"
+  >
+    Más información sobre el cuidado de mascotas en Alginet →
+  </a>
+</div>
+
+</div>
 </details>
 
            <details className="bg-white border rounded-xl p-6">
