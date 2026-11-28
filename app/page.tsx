@@ -1,4 +1,5 @@
 import Image from "next/image";
+import EnlacesServicios from "./components/EnlacesServicios";
 export default function Home() {
   return (
     <main className="bg-white text-gray-900">
@@ -680,6 +681,7 @@ export default function Home() {
 </svg>
 
 </a>
+<EnlacesServicios />
      {/* FOOTER */}
 <footer className="border-t py-10 mt-10">
   <div className="max-w-6xl mx-auto px-6 text-center">
